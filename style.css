@@ -1,0 +1,72 @@
+/* 
+  Import the following Google Fonts / Font Weight:
+   - Mali / 700
+   - Montserrat / 600
+  
+   Use the following Background Image
+    - https://images.unsplash.com/photo-1496404690491-28c5b1ecde19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60
+
+font-family: 'Mali', cursive;
+font-family: 'Montserrat', sans-serif;
+#8E5659-facts
+#FAC327-curiosity
+#C07050-lifetime
+
+ */
+
+/* Used w3 and project from lab for CSS references */
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  article {
+    
+    width: 370px;
+    height: 310px;
+    background-image: url('https://images.unsplash.com/photo-1496404690491-28c5b1ecde19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+    background-position: -65px 0px;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    
+  }
+  
+  span {
+    font-size: 13px;
+    font-family: 'Mali', cursive;
+  }
+  #sign{
+    text-align: right;
+    font-style: italic;
+    font-size: 9px;
+    line-height: 2;
+    margin-right: 10px;
+    letter-spacing: 3px;
+  }
+  
+  p {
+    font-family: Montserrat, sans-serif;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    line-height: 1;
+  }
+  
+  #first{
+    padding-top: 15px;
+  }
+  
+  p:nth-of-type(1) span {
+    color:#8E5659;
+  }
+  p:nth-of-type(3) span {
+    color:#FAC327;
+  }
+  p:nth-of-type(4) span {
+    color:#C07050;
+  }
+  
+  /* #8E5659-facts */
+  /* #FAC327-curiosity */
+  /* #C07050-lifetime */
